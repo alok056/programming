@@ -1,4 +1,4 @@
-package java.collections.arraylist;
+package javademo.collections.arraylist;
 
 import java.util.*;
 
@@ -13,16 +13,12 @@ public class ArrayListDemo {
         List rawList = new ArrayList();
 
         rawList.add("Alok");
-
+        rawList.add(null);
         rawList.add("Abhishek");
-
-
-
         rawList.add(2);
         rawList.add(3);
         rawList.add(true);
         rawList.add(null);
-
 
 
         // Prints: [Alok, 2, Alok, 3, true, null]
