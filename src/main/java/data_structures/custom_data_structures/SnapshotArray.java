@@ -1,4 +1,4 @@
-package main.java.data_structures.custom_data_structures;
+package data_structures.custom_data_structures;
 
 import java.util.ArrayList;
 import java.util.List;

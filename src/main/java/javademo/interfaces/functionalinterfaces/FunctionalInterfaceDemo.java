@@ -1,4 +1,4 @@
-package main.java.javademo.interfaces.functionalinterfaces;
+package javademo.interfaces.functionalinterfaces;
 
 public class FunctionalInterfaceDemo implements FunctionalInterface1 {
     @Override

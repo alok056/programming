@@ -1,4 +1,4 @@
-package main.java.javademo.lambdas.comparatorusinglambda;
+package javademo.lambdas.comparatorusinglambda;
 
 import java.util.ArrayList;
 import java.util.List;

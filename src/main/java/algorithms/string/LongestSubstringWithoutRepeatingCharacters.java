@@ -1,4 +1,4 @@
-package main.java.algorithms.string;
+package algorithms.string;
 
 import java.util.HashMap;
 

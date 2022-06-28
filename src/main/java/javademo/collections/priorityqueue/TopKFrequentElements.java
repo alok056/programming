@@ -1,4 +1,4 @@
-package main.java.javademo.collections.priorityqueue;
+package javademo.collections.priorityqueue;
 
 import java.util.*;
 

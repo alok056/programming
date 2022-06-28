@@ -1,4 +1,4 @@
-package main.java.javademo.lambdas;
+package javademo.lambdas;
 
 @FunctionalInterface
 public interface Greeting {

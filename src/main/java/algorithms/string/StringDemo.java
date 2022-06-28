@@ -1,4 +1,4 @@
-package main.java.algorithms.string;
+package algorithms.string;
 
 public class StringDemo {
     public static void main(String[] args) {

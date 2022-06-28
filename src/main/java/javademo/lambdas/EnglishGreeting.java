@@ -1,4 +1,4 @@
-package main.java.javademo.lambdas;
+package javademo.lambdas;
 
 public class EnglishGreeting implements Greeting {
     @Override

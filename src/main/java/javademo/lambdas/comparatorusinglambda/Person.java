@@ -1,4 +1,4 @@
-package main.java.javademo.lambdas.comparatorusinglambda;
+package javademo.lambdas.comparatorusinglambda;
 
 public class Person {
 

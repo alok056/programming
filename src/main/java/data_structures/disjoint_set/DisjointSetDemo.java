@@ -1,4 +1,4 @@
-package main.java.data_structures.disjoint_set;
+package data_structures.disjoint_set;
 
 public class DisjointSetDemo {
     public static void main(String[] args) {

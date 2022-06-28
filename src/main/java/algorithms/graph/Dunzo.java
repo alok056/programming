@@ -1,4 +1,4 @@
-package main.java.algorithms.graph;
+package algorithms.graph;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -14,10 +14,10 @@ public class Dunzo {
             }
 
             for (TreeNode node: map.get(place).getPlaces()) {
-                answer.add(node.getNameOfPlace());
+                answer.add(node.getName());
                 List<String> childs = new ArrayList<>();
                 for (TreeNode childNode: node.getPlaces()) {
-                    childs.add(childNode.getNameOfPlace());
+                    childs.add(childNode.getName());
                 }
 
                 answer.addAll(getAllPlaces(childs, map));
@@ -34,7 +34,7 @@ public class Dunzo {
 
         for (String root: rootSet) {
             List<TreeNode> childs = map.get(root).getPlaces();
-            answer.addAll(childs.stream().map(treeNode -> treeNode.getNameOfPlace().toString()).collect(Collectors.toList()));
+            answer.addAll(childs.stream().map(treeNode -> treeNode.getName().toString()).collect(Collectors.toList()));
             answer.add(null);
 
             rootSet.remove(root);
@@ -106,20 +106,20 @@ public class Dunzo {
 }
 
 class TreeNode {
-    private String nameOfPlace;
+    private String name;
     private List<TreeNode> places;
 
-    public TreeNode (String nameOfPlace, List<TreeNode> places) {
-        this.nameOfPlace = nameOfPlace;
+    public TreeNode (String name, List<TreeNode> places) {
+        this.name = name;
         this.places = places;
     }
 
-    public String getNameOfPlace() {
-        return nameOfPlace;
+    public String getName() {
+        return name;
     }
 
-    public void setNameOfPlace(String nameOfPlace) {
-        this.nameOfPlace = nameOfPlace;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public List<TreeNode> getPlaces() {

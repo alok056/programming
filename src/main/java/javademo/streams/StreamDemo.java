@@ -1,4 +1,4 @@
-package main.java.javademo.streams;
+package javademo.streams;
 
 public class StreamDemo {
     public static void main(String[] args) {

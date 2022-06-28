@@ -1,4 +1,4 @@
-package main.java.javademo.utils.arrays;
+package javademo.utils.arrays;
 
 import java.util.Arrays;
 
