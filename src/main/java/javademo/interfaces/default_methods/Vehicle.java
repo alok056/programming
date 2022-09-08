@@ -1,4 +1,4 @@
-package javademo.interfaces.defaultmethods;
+package javademo.interfaces.default_methods;
 
 public interface Vehicle {
 

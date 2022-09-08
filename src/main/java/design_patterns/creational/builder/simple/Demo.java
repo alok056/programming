@@ -1,4 +1,4 @@
-package design_patterns.builder.simple;
+package design_patterns.creational.builder.simple;
 
 public class Demo {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Demo {
 
         PhoneBuilder phoneBuilder = new PhoneBuilder();
 
-        Phone phone2 = phoneBuilder
+        Phone phoneUsingBuilder = phoneBuilder
                 .setOs("iOS")
                 .setProcessor("QuadCore")
                 .setBattery(2000)
@@ -16,6 +16,6 @@ public class Demo {
                 .setScreenSize(10.5)
                 .build();
 
-        System.out.println(phone2);
+        System.out.println(phoneUsingBuilder);
     }
 }

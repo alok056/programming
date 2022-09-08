@@ -1,4 +1,4 @@
-package design_patterns.builder.simple;
+package design_patterns.creational.builder.simple;
 
 public class PhoneBuilder {
     private String os;

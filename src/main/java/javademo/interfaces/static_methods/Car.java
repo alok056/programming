@@ -1,4 +1,4 @@
-package javademo.interfaces.staticmethods;
+package javademo.interfaces.static_methods;
 
 public class Car implements Vehicle {
 

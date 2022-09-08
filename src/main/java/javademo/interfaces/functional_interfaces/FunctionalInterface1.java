@@ -1,4 +1,4 @@
-package javademo.interfaces.functionalinterfaces;
+package javademo.interfaces.functional_interfaces;
 
 @FunctionalInterface
 // This is not mandatory but if an interface is annotated with @FunctionalInterface annotation and someone tries to

@@ -32,5 +32,12 @@ public class IterateArrayList {
             Integer item = iterator.next();
             System.out.println(item);
         }
+
+        System.out.println("Iterating ArrayList using ListIterator: ");
+        Iterator<Integer> iterator2 = list.listIterator();
+        while (iterator2.hasNext()) {
+            Integer item = iterator2.next();
+            System.out.println(item);
+        }
     }
 }
