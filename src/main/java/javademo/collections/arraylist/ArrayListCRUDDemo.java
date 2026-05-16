@@ -11,13 +11,13 @@ public class ArrayListCRUDDemo {
         // 1. Using the no-arg constructor
         // The default constructor does not take any argument and creates a List of size zero
 
-        List test = new ArrayList<>();
+        List<String> test = new ArrayList<>();
         test.add("Alok");
         test.add("Abhishek");
 
         System.out.println("test: " + test);
 
-        List rawList = new ArrayList();
+        List<Object> rawList = new ArrayList<>();
 
         rawList.add("Alok");
         rawList.add(null);
@@ -32,7 +32,7 @@ public class ArrayListCRUDDemo {
         System.out.println("rawList: " + rawList);
 
         // 2. Using the constructor that takes initial capacity
-        List rawListWithInitialCapacity = new ArrayList(50);
+        List<Object> rawListWithInitialCapacity = new ArrayList<>(50);
         rawListWithInitialCapacity.add("1");
         rawListWithInitialCapacity.add(2);
         rawListWithInitialCapacity.add(5);
@@ -42,7 +42,7 @@ public class ArrayListCRUDDemo {
         System.out.println("rawListWithInitialCapacity: " + rawListWithInitialCapacity);
 
         // 3. Using existing Collection
-        List rawListCopied = new ArrayList<>(rawList);
+        List<Object> rawListCopied = new ArrayList<>(rawList);
 
         // Prints: [Alok, 2, Alok, 3, true, null]
         System.out.println("rawListCopied: " + rawListCopied);
@@ -50,7 +50,7 @@ public class ArrayListCRUDDemo {
         int[] numbers = {1,4,5,2,34,66,5,4,33,45,50,6,8,56,76,78,98,34,37,12,12,23,43,54,56};
         List<Integer> integerList = Arrays.stream(numbers).boxed().toList();
 
-        List rawListCopied2 = new ArrayList(integerList);
+        List<Integer> rawListCopied2 = new ArrayList<>(integerList);
 
         System.out.println("rawListCopied2: " + rawListCopied2);
 

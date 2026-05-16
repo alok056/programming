@@ -1,20 +1,23 @@
 package data_structures.tree;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import java.util.ArrayList;
 import java.util.List;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 class Employee {
     private int id;
     private String name;
     private int rating;
     private List<Employee> subOrdinates;
+
+    Employee() {
+    }
+
+    Employee(int id, String name, int rating, List<Employee> subOrdinates) {
+        this.id = id;
+        this.name = name;
+        this.rating = rating;
+        this.subOrdinates = subOrdinates;
+    }
 }
 
 public class GenericTree {
