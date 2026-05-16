@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class ArraysSortDemo {
     public static void main(String[] args) {
-        int[] ages   = {2,  4,  5,  12, 3,  1,  8,  23, 78, 19};
-        int[] scores = {12, 14, 15, 12, 13, 11, 18, 23, 18, 19};
+        int[] ages   = {2,  4,  5,  12, 3,  1,  8, 12,  23, 78, 19};
+        int[] scores = {12, 14, 15, 12, 13, 11, 18, 29, 23, 18, 19};
 
         Pair[] p = new Pair[ages.length];
         for (int i = 0; i < ages.length; i++) {
